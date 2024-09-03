@@ -6,5 +6,5 @@
 
 **Desarrolladoras:**
 Jackie Yuste
-Paula  Martinez
+Paula Martínez
 Yael Parra
