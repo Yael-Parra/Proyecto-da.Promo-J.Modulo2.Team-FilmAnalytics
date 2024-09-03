@@ -1,2 +1,10 @@
-# Proyecto-da.Promo-J.Modulo2.Team-FilmAnalytics
-Proyecto WebScraping Movies
+# PROYECTO CINEMEXTRACT
+
+## Explorando el Séptimo Arte a través de Datos y Tecnología
+
+### Equipo Film Analytics 
+
+**Desarrolladoras:**
+Jackie Yuste
+Paula  Martinez
+Yael Parra
