@@ -42,4 +42,12 @@ ORDER BY MAX(puntuacion) DESC;
 sale del codigo de actores con los premios de los actores
 
 -- ¿Hay algún actor/actriz que haya recibido más de un premio Óscar?
-hay que volver a subir los datos con el ajuste de las variables de tuplas, para no trabajar doble, nos esperamos a tener la tabla ok
+SELECT mejor_actor AS Actor, COUNT(*) AS "Oscares"
+FROM premios_oscar
+GROUP BY mejor_actor, mejor_actriz
+HAVING COUNT(*) >1
+UNION
+SELECT mejor_actriz AS Actriz, COUNT(*) AS "Oscares"
+FROM premios_oscar
+GROUP BY mejor_actriz
+HAVING COUNT(*) >1;
