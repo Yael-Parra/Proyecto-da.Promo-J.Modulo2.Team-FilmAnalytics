@@ -55,6 +55,19 @@ HAVING COUNT(*) >1;
 
 -- Rango de puntuación de las películas
 SELECT 
-	SUM(CASE WHEN puntuacion BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS rango_1, 
-	SUM(CASE WHEN puntuacion BETWEEN 6 AND 10 THEN 1 ELSE 0 END) AS rango_2 
+    SUM(CASE WHEN puntuacion BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS puntuacion_1_5,
+    SUM(CASE WHEN puntuacion BETWEEN 6 AND 10 THEN 1 ELSE 0 END) AS puntuacion_6_10,
+    SUM(CASE WHEN puntuacion IS NULL THEN 1 ELSE 0 END) AS puntuacion_nula
 FROM peliculas_imdb;
+
+-- Promedio de puntuación de los directores con por lo menos 3 peliculas dirigidas.
+WITH directores_puntuacion AS (
+    SELECT direccion, ROUND(AVG(puntuacion),2) AS PromedioPuntuacion, COUNT(*) AS NumPeliculas
+    FROM peliculas_imdb
+    WHERE direccion IS NOT NULL
+    GROUP BY direccion
+)
+SELECT direccion AS NombreDirector, PromedioPuntuacion
+FROM directores_puntuacion
+WHERE NumPeliculas >= 3
+ORDER BY PromedioPuntuacion;
