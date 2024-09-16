@@ -94,7 +94,7 @@ Para ejecutar la extraccion de datos, necesitas tener instalado Python 3, las bi
 3. Sigue las instrucciones de instalación segun tu sistema operativo.
 
 
-## INSTALACIÓN BIBLIOTECAS SELENIUM Y BEUTIFUL SOUP
+### INSTALACIÓN BIBLIOTECAS SELENIUM Y BEAUTIFUL SOUP
 
 Selenium es una herramienta de desarrollo web de código abierto que se utiliza para automatizar las funciones de navegación web y WebDriver es un ejecutable separado que Selenium usa para controlar el navegador. 
 
