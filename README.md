@@ -83,32 +83,32 @@ A continuación, se listan los principales recursos y fuentes de información ut
 - [IMDB](https://www.imdb.com/) - Base de datos de películas, programas de televisión y actores.
 - [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar y sus ganadores.
 
-  ## REQUISITOS PARA LA EJECUCION
+## REQUISITOS PARA LA EJECUCION
 
 Para ejecutar la extraccion de datos, necesitas tener instalado Python 3, las bibliotecas Selenium y Beutiful Soup.
 
-### INSTALACION PYTHON (en Windows, Mac o Linux)
+## INSTALACION PYTHON (en Windows, Mac o Linux)
 
 1. Ve al sitio web oficial de Python: [python.org](https://www.python.org/)
 2. Descarga la versión más reciente de Python 3.
 3. Sigue las instrucciones de instalación segun tu sistema operativo.
 
 
-### INSTALACIÓN BIBLIOTECAS SELENIUM Y BEAUTIFUL SOUP
+## INSTALACIÓN BIBLIOTECAS SELENIUM Y BEAUTIFUL SOUP
 
 Selenium es una herramienta de desarrollo web de código abierto que se utiliza para automatizar las funciones de navegación web y WebDriver es un ejecutable separado que Selenium usa para controlar el navegador. 
 
 Estas bibliotecas puedes instalarlas usando pip en una celda Code en Visual Studio Code, con los siguientes comando:
 
-### SELENIUM
+## SELENIUM
 
 pip install Selenium
 
-### WEBDRIVER
+## WEBDRIVER
 
 pip install webdriver-manager
 
-### BEAUTIFUL SOUP
+## BEAUTIFUL SOUP
 
 pip install beautifulsoup4
 
@@ -123,7 +123,7 @@ Para ejecutar la extraccion de datos es necesario llevar a cabo lo siguiente:
 
 2. Una vez alli un archivo principal llamado CinemExtract.ipynb para dar inicio a la extraccion de datos. 
 
-# DOCUMENTACIÓN Y JUSTIFICACIÓN
+## DOCUMENTACIÓN Y JUSTIFICACIÓN
 
 # Uso de Python y Selenium
 
@@ -140,30 +140,10 @@ En el mundo del análisis de datos, a menudo nos encontramos con la necesidad de
 
 ## ESTRUCTURA DEL PROYECTO
 
- |__https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
-     |__CinemaExtract.ipynb
-     |__Consultas.sql
-     |__extraccion_actores_parcial_1.csv
-     |__extraccion_actores_parcial_2.csv
-     |__extraccion_actores_parcial_3.csv
-     |__extraccion_actores_parcial_4.csv
-     |__extraccion_actores_parcial_5.csv
-     |__extraccion_actores_parcial_6.csv
-     |__extraccion_actores_parcial_7.csv
-     |__extraccion_actores_parcial_8.csv
-     |__extraccion_actores_parcial_9.csv
-     |__extraccion_actores_parcial_10.csv
-     |__extraccion_actores_parcial_11.csv
-     |__extraccion_actores_parcial_12.csv
-     |__extraccion_actores_parcial_13.csv
-     |__extraccion_actores_parcial_14.csv
-     |__extraccion_actores_parcial_15.csv
-     |__movies_last_15.csv
-     |__peliculas_imdb.csv
-     |__README.md
+ <img src="https://github.com/jackyto20/mi_primer_repo/blob/main/Captura1.PNG" width="500"/>
      
 
-## Conclusión
+## CONCLUSIÓN
 Este proyecto tiene como objetivo optimizar la capacidad de DataStream para destacar los mejores contenidos en su plataforma mediante el análisis detallado de películas y cortometrajes. El uso de metodologías ágiles y tecnologías de scraping, combinado con un robusto análisis de datos, permitirá a DataStream tomar decisiones estratégicas fundamentadas, mejorando la experiencia para sus usuarios.
 
  ## CONTACTO
