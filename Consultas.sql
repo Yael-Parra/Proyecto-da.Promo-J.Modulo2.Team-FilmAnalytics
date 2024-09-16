@@ -29,9 +29,6 @@ GROUP BY anio_pelicula
 ORDER BY COUNT(id_pelicula) DESC 
 LIMIT 1;
 
--- ¿Cuál es la mejor serie valorada en IMDB?
-Hay que extraer las series copiando codigo de extraccion de pelis imdb pero series imdb
-
 -- ¿Cuál es la película mejor valorada en IMDB?
 SELECT titulo_imdb AS Título, MAX(puntuacion) AS Puntuación
 FROM peliculas_imdb
@@ -39,7 +36,11 @@ GROUP BY titulo_imdb
 ORDER BY MAX(puntuacion) DESC;
 
 -- ¿Qué actor/actriz ha recibido más premios?
-sale del codigo de actores con los premios de los actores
+SELECT nombre, MAX(premios) AS "Cantidad Premios"
+FROM actores
+GROUP BY nombre
+ORDER BY MAX(premios) DESC
+LIMIT 1;
 
 -- ¿Hay algún actor/actriz que haya recibido más de un premio Óscar?
 SELECT mejor_actor AS Actor, COUNT(*) AS "Oscares"
@@ -51,3 +52,5 @@ SELECT mejor_actriz AS Actriz, COUNT(*) AS "Oscares"
 FROM premios_oscar
 GROUP BY mejor_actriz
 HAVING COUNT(*) >1;
+
+-- Promedio de puntuación de los directores con por lo menos 3 peliculas dirigidas.
