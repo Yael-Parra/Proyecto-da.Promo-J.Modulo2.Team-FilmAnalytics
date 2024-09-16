@@ -53,4 +53,8 @@ FROM premios_oscar
 GROUP BY mejor_actriz
 HAVING COUNT(*) >1;
 
--- Promedio de puntuación de los directores con por lo menos 3 peliculas dirigidas.
+-- Rango de puntuación de las películas
+SELECT 
+	SUM(CASE WHEN puntuacion BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS rango_1, 
+	SUM(CASE WHEN puntuacion BETWEEN 6 AND 10 THEN 1 ELSE 0 END) AS rango_2 
+FROM peliculas_imdb;
