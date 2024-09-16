@@ -5,7 +5,7 @@
 ### Equipo Film Analytics 
 
 **Desarrolladoras:**
-Jackie Yusti Espinosa
+Jacqueline Yusty Espinosa
 Paula Martínez
 Yael Parra
 
