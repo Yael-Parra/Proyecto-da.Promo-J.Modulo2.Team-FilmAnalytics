@@ -5,7 +5,7 @@
 ### Equipo Film Analytics 
 
 **Desarrolladoras:**
-Jackie Yuste
+Jackie Yusti Espinosa
 Paula Martínez
 Yael Parra
 
@@ -85,4 +85,75 @@ A continuación, se listan los principales recursos y fuentes de información ut
 - [Adalab Cinema](https://dev.adalab.es/cinema/) - Plataforma de Adalab con acceso a datos de películas.
 - [IMDB](https://www.imdb.com/) - Base de datos de películas, programas de televisión y actores.
 - [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar y sus ganadores.
+
+  ## REQUISITOS PARA LA EJECUCION
+
+Para ejecutar la extraccion de datos, necesitas tener instalado Python 3, las bibliotecas Selenium y Beutiful Soup.
+
+### INSTALACION PYTHON (en Windows, Mac o Linux)
+
+1. Ve al sitio web oficial de Python: [python.org](https://www.python.org/)
+2. Descarga la versión más reciente de Python 3.
+3. Sigue las instrucciones de instalación segun tu sistema operativo.
+
+
+## INSTALACIÓN BIBLIOTECAS SELENIUM Y BEUTIFUL SOUP
+
+Selenium es una herramienta de desarrollo web de código abierto que se utiliza para automatizar las funciones de navegación web y WebDriver es un ejecutable separado que Selenium usa para controlar el navegador. 
+
+Estas bibliotecas puedes instalarlas usando pip en una celda Code en Visual Studio Code, con los siguientes comando:
+
+### SELENIUM
+
+pip install Selenium
+
+### WEBDRIVER
+
+pip install webdriver-manager
+
+### BEAUTIFUL SOUP
+
+pip install beautifulsoup4
+
+
+## EJECUCION DEL PROYECTO
+
+Para ejecutar la extraccion de datos es necesario llevar a cabo lo siguiente:
+
+1. **Clona este repositorio** a tu máquina local:
+
+        git clone https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
+
+2. Una vez alli un archivo principal llamado CinemExtract.ipynb para dar inicio a la extraccion de datos. 
+
+# DOCUMENTACIÓN Y JUSTIFICACIÓN
+
+# Uso de Python y Selenium
+
+Python es un lenguaje de programación popular para el web scraping porque tiene muchas bibliotecas que facilitan la extracción de datos de los sitios web.
+
+El uso de Python y Selenium para el web scraping ofrece varias ventajas sobre otras técnicas de web scraping:
+
+Sitios web dinámicos: Las páginas web dinámicas se crean utilizando JavaScript u otros lenguajes de secuencias de comandos. Estas páginas a menudo contienen elementos visibles una vez que la página está completamente cargada o cuando el usuario interactúa con ellos. Selenium puede interactuar con estos elementos, lo que lo convierte en una poderosa herramienta para extraer datos de páginas web dinámicas.
+Selenium tambien puede simular interacciones de usuario como clics, envíos de formularios y desplazamiento. 
+
+# Uso de Beautiful Soup
+
+En el mundo del análisis de datos, a menudo nos encontramos con la necesidad de obtener datos de la web para nuestros proyectos. Puede ser información de noticias, datos de productos, estadísticas deportivas o cualquier otro tipo de contenido en línea. Beautiful Soup nos brinda la capacidad de acceder a estos datos y convertirlos en un formato que podamos utilizar en nuestro análisis.
+## ESTRUCTURA DEL PROYECTO
+
+https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
+
+ ## CONTACTO
+
+Si tienes preguntas o sugerencias, no dudes en contactarnos  a través de linkedin o escribiendonos a traves de correo eletronico: 
+
+- Yael Parra 
+https://www.linkedin.com/in/yael-parra/
+
+- Paula Martinez Cantero 
+
+- Jacqueline Yusty Espinosa 
+https://es.linkedin.com/in/jacqueline-yusty-espinosa-3112681
+jackeline_yusti@yahoo.com
 
