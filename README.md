@@ -75,9 +75,6 @@ Adicionalmente, el proyecto se llevará a cabo siguiendo la metodología **Scrum
   - ¿Qué actores/actrices han ganado más de un Óscar?
 - **Documentación y justificación** de las consultas.
 
-## Conclusión
-Este proyecto tiene como objetivo optimizar la capacidad de DataStream para destacar los mejores contenidos en su plataforma mediante el análisis detallado de películas y cortometrajes. El uso de metodologías ágiles y tecnologías de scraping, combinado con un robusto análisis de datos, permitirá a DataStream tomar decisiones estratégicas fundamentadas, mejorando la experiencia para sus usuarios.
-
 ## Recursos/Fuentes de Información
 
 A continuación, se listan los principales recursos y fuentes de información utilizados en este proyecto:
@@ -140,20 +137,47 @@ Selenium tambien puede simular interacciones de usuario como clics, envíos de f
 # Uso de Beautiful Soup
 
 En el mundo del análisis de datos, a menudo nos encontramos con la necesidad de obtener datos de la web para nuestros proyectos. Puede ser información de noticias, datos de productos, estadísticas deportivas o cualquier otro tipo de contenido en línea. Beautiful Soup nos brinda la capacidad de acceder a estos datos y convertirlos en un formato que podamos utilizar en nuestro análisis.
+
 ## ESTRUCTURA DEL PROYECTO
 
-https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
+ |__https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
+     |__CinemaExtract.ipynb
+     |__Consultas.sql
+     |__extraccion_actores_parcial_1.csv
+     |__extraccion_actores_parcial_2.csv
+     |__extraccion_actores_parcial_3.csv
+     |__extraccion_actores_parcial_4.csv
+     |__extraccion_actores_parcial_5.csv
+     |__extraccion_actores_parcial_6.csv
+     |__extraccion_actores_parcial_7.csv
+     |__extraccion_actores_parcial_8.csv
+     |__extraccion_actores_parcial_9.csv
+     |__extraccion_actores_parcial_10.csv
+     |__extraccion_actores_parcial_11.csv
+     |__extraccion_actores_parcial_12.csv
+     |__extraccion_actores_parcial_13.csv
+     |__extraccion_actores_parcial_14.csv
+     |__extraccion_actores_parcial_15.csv
+     |__movies_last_15.csv
+     |__peliculas_imdb.csv
+     |__README.md
+     
+
+## Conclusión
+Este proyecto tiene como objetivo optimizar la capacidad de DataStream para destacar los mejores contenidos en su plataforma mediante el análisis detallado de películas y cortometrajes. El uso de metodologías ágiles y tecnologías de scraping, combinado con un robusto análisis de datos, permitirá a DataStream tomar decisiones estratégicas fundamentadas, mejorando la experiencia para sus usuarios.
 
  ## CONTACTO
 
 Si tienes preguntas o sugerencias, no dudes en contactarnos  a través de linkedin o escribiendonos a traves de correo eletronico: 
 
 - Yael Parra 
-https://www.linkedin.com/in/yael-parra/
+  https://www.linkedin.com/in/yael-parra/
+  yaelparrac@gmail.com
 
-- Paula Martinez Cantero 
-
+- Paula Martinez Cantero
+  paula.mtnezcantero@gmail.com
+   
 - Jacqueline Yusty Espinosa 
-https://es.linkedin.com/in/jacqueline-yusty-espinosa-3112681
-jackeline_yusti@yahoo.com
+  https://es.linkedin.com/in/jacqueline-yusty-espinosa-3112681
+  jackeline_yusti@yahoo.com
 
