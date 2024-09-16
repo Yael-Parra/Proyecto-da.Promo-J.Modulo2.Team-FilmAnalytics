@@ -77,3 +77,12 @@ Adicionalmente, el proyecto se llevará a cabo siguiendo la metodología **Scrum
 
 ## Conclusión
 Este proyecto tiene como objetivo optimizar la capacidad de DataStream para destacar los mejores contenidos en su plataforma mediante el análisis detallado de películas y cortometrajes. El uso de metodologías ágiles y tecnologías de scraping, combinado con un robusto análisis de datos, permitirá a DataStream tomar decisiones estratégicas fundamentadas, mejorando la experiencia para sus usuarios.
+
+## Recursos/Fuentes de Información
+
+A continuación, se listan los principales recursos y fuentes de información utilizados en este proyecto:
+
+- [Adalab Cinema](https://dev.adalab.es/cinema/) - Plataforma de Adalab con acceso a datos de películas.
+- [IMDB](https://www.imdb.com/) - Base de datos de películas, programas de televisión y actores.
+- [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar y sus ganadores.
+
