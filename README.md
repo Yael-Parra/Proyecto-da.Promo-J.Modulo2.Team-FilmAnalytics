@@ -73,6 +73,6 @@ Este proyecto se desarrollará siguiendo la metodología **Scrum**, lo que asegu
 
 ## 📚 **Recursos/Fuentes de Información**
 
-- [Adalab Cinema](https://dev.adalab.es/cinema/) - Datos de películas.
+- [Adalab Cinema] - Datos de películas.
 - [IMDB](https://www.imdb.com/) - Base de datos de películas y actores.
 - [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar.
