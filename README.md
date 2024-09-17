@@ -1,163 +1,77 @@
-# PROYECTO CINEMEXTRACT
+# 🎬 PROYECTO CINEMEXTRACT
 
-## Explorando el Séptimo Arte a través de Datos y Tecnología
+## 🎥 Explorando el Séptimo Arte a través de Datos y Tecnología
 
-### Equipo Film Analytics 
+### 👥 Equipo Film Analytics 
 
 **Desarrolladoras:**
-Jacqueline Yusty Espinosa
-Paula Martínez
-Yael Parra
 
-# Proyecto: Mejora del Contenido en DataStream
+- Paula Martínez
+- Yael Parra
+- Jacqueline Yusty
+---
 
-## 1. Objetivo
-El propósito principal de este proyecto es mejorar el contenido de la plataforma **DataStream** mediante un exhaustivo análisis de datos de películas y cortometrajes lanzados entre los años 2009 y 2024. Utilizando **web scraping** para extraer información clave de fuentes confiables, el análisis ayudará a DataStream a tomar decisiones informadas sobre qué películas y cortometrajes promocionar. 
+## 🛠️ Proyecto: Mejora del Contenido en DataStream
 
-Adicionalmente, el proyecto se llevará a cabo siguiendo la metodología **Scrum**, lo que permitirá un desarrollo ágil, colaborativo y enfocado en la entrega continua de resultados. Este enfoque no solo mejora la calidad del proyecto, sino también las habilidades de los miembros del equipo en el manejo de datos y herramientas de scraping.
+### 1. 🎯 **Objetivo**
 
-### Mejora del Contenido en DataStream
-- **Análisis de datos** para identificar las películas y cortometrajes más relevantes dentro del rango de tiempo especificado.
-- Facilitar decisiones estratégicas basadas en los datos recolectados, sobre qué películas y cortometrajes deben ser promocionados en DataStream.
+El propósito principal de este proyecto es mejorar el contenido de la plataforma **DataStream** mediante un exhaustivo análisis de datos de películas y cortometrajes lanzados entre los años **2009 y 2024**. Usando **web scraping** para extraer información clave de fuentes confiables, este análisis permitirá a **DataStream** tomar decisiones informadas sobre qué películas y cortometrajes promocionar.
 
-### Desarrollo Ágil y Colaborativo
-- **Implementación de Scrum** para garantizar un proceso de desarrollo eficiente, enfocado en resultados de alta calidad.
-- Comunicación fluida entre los miembros del equipo, con reuniones periódicas para evaluar avances y ajustar el desarrollo conforme sea necesario.
+Este proyecto se desarrollará siguiendo la metodología **Scrum**, lo que asegurará un desarrollo ágil, colaborativo y enfocado en la entrega continua de resultados.
 
-## 2. Fases del Proyecto
+### 🚀 **Mejoras Clave**
+- **Análisis de datos** para identificar películas y cortometrajes relevantes.
+- Facilitar decisiones estratégicas sobre qué contenido promocionar.
 
-### Fase 1: Extracción de Datos de Películas con API
-- Uso de la **API MoviesDataset** para extraer datos sobre películas lanzadas entre 2009 y 2024.
+### 🤝 **Desarrollo Ágil**
+- **Scrum** para garantizar un proceso eficiente y de alta calidad.
+- Reuniones periódicas para evaluar avances y ajustar el desarrollo.
+
+---
+
+## 🗂️ 2. **Fases del Proyecto**
+
+### 📡 **Fase 1: Extracción de Datos de Películas con API**
+- Uso de **MoviesDataset API** para extraer datos de películas entre **2009 y 2024**.
 - **Datos extraídos**:
-  - Identificación de la película (ID)
+  - ID de la película
   - Título
   - Año de estreno
   - Género
-- **Documentación y justificación** de la extracción.
 
-### Fase 2: Extracción con Selenium de Detalles de Películas y Actores
-- **Web scraping** utilizando **Selenium** para obtener información detallada de la base de datos de películas **IMDB**.
-- **Datos de películas extraídos**:
-  - ID
-  - Título
-  - Puntuación
-  - Dirección
-  - Guionista
-  - Argumento
-- **Datos de actores extraídos**:
-  - Nombre
-  - Año de nacimiento
-  - Razonamiento de su popularidad
-  - Actividad profesional
-  - Premios ganados
-- **Documentación y justificación** de la extracción.
+### 🖥️ **Fase 2: Web Scraping con Selenium - Detalles de Películas y Actores**
+- Uso de **Selenium** para obtener información detallada de **IMDB**.
+- **Datos de películas**:
+  - ID, Título, Puntuación, Dirección, Guionista, Argumento
+- **Datos de actores**:
+  - Nombre, Año de nacimiento, Popularidad, Premios
 
-### Fase 3: Extracción con BeautifulSoup de los Premios Óscar
-- **Web scraping** con **BeautifulSoup** para recolectar información de **Wikipedia** sobre los Premios Óscar.
+### 🏆 **Fase 3: Web Scraping con BeautifulSoup - Premios Óscar**
+- Uso de **BeautifulSoup** para extraer información de los **Premios Óscar** desde **Wikipedia**.
 - **Datos extraídos**:
-  - Año de la ceremonia
-  - Mejor película
-  - Mejor dirección
-  - Mejor actor
-  - Mejor actriz
-- **Documentación y justificación** de la extracción.
+  - Año, Mejor Película, Mejor Dirección, Mejor Actor/Actriz
 
-### Fase 4: Organización y Almacenamiento de Datos en SQL
-- **Creación de una Base de Datos (BBDD)** para almacenar toda la información recolectada.
-- **Inserción de datos** en la BBDD.
-- **Creación del modelo Entidad-Relación (ER)** para representar las relaciones entre las distintas tablas de datos.
-- **Documentación y justificación** del proceso de organización y almacenamiento de datos.
+### 🗃️ **Fase 4: Organización y Almacenamiento de Datos en SQL**
+- **Creación de la Base de Datos** para almacenar la información recolectada.
+- **Modelo Entidad-Relación (ER)** para representar las relaciones entre las tablas.
 
-### Fase 5: Análisis y Consultas de Datos
-- Realización de consultas SQL para obtener información específica:
+### 🧑‍💻 **Fase 5: Análisis y Consultas de Datos**
+- Consultas SQL para obtener información clave:
   - ¿En qué año se estrenaron más películas?
-  - ¿Qué género de películas está mejor valorado en IMDB?
-  - ¿Qué actores/actrices han ganado más de un Óscar?
-- **Documentación y justificación** de las consultas.
+  - ¿Qué género está mejor valorado en IMDB?
+  - ¿Qué actores han ganado más de un Óscar?
 
-## Recursos/Fuentes de Información
+---
 
-A continuación, se listan los principales recursos y fuentes de información utilizados en este proyecto:
-
-- [Adalab Cinema](https://dev.adalab.es/cinema/) - Plataforma de Adalab con acceso a datos de películas.
-- [IMDB](https://www.imdb.com/) - Base de datos de películas, programas de televisión y actores.
-- [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar y sus ganadores.
-
-## REQUISITOS PARA LA EJECUCION
-
-Para ejecutar la extraccion de datos, necesitas tener instalado Python 3, las bibliotecas Selenium y Beutiful Soup.
-
-## INSTALACION PYTHON (en Windows, Mac o Linux)
-
-1. Ve al sitio web oficial de Python: [python.org](https://www.python.org/)
-2. Descarga la versión más reciente de Python 3.
-3. Sigue las instrucciones de instalación segun tu sistema operativo.
+## 📊 **Modelo Entidad-Relación (ER)**
 
 
-## INSTALACIÓN BIBLIOTECAS SELENIUM Y BEAUTIFUL SOUP
+![image](https://github.com/user-attachments/assets/486f7bfa-202c-4423-85ba-a4dc841deb35)
 
-Selenium es una herramienta de desarrollo web de código abierto que se utiliza para automatizar las funciones de navegación web y WebDriver es un ejecutable separado que Selenium usa para controlar el navegador. 
+---
 
-Estas bibliotecas puedes instalarlas usando pip en una celda Code en Visual Studio Code, con los siguientes comando:
+## 📚 **Recursos/Fuentes de Información**
 
-## SELENIUM
-
-pip install Selenium
-
-## WEBDRIVER
-
-pip install webdriver-manager
-
-## BEAUTIFUL SOUP
-
-pip install beautifulsoup4
-
-
-## EJECUCION DEL PROYECTO
-
-Para ejecutar la extraccion de datos es necesario llevar a cabo lo siguiente:
-
-1. **Clona este repositorio** a tu máquina local:
-
-        git clone https://github.com/Yael-Parra/Repo-da.Promo-J.Modulo2.Team-FilmAnalytics
-
-2. Una vez alli un archivo principal llamado CinemExtract.ipynb para dar inicio a la extraccion de datos. 
-
-## DOCUMENTACIÓN Y JUSTIFICACIÓN
-
-# Uso de Python y Selenium
-
-Python es un lenguaje de programación popular para el web scraping porque tiene muchas bibliotecas que facilitan la extracción de datos de los sitios web.
-
-El uso de Python y Selenium para el web scraping ofrece varias ventajas sobre otras técnicas de web scraping:
-
-Sitios web dinámicos: Las páginas web dinámicas se crean utilizando JavaScript u otros lenguajes de secuencias de comandos. Estas páginas a menudo contienen elementos visibles una vez que la página está completamente cargada o cuando el usuario interactúa con ellos. Selenium puede interactuar con estos elementos, lo que lo convierte en una poderosa herramienta para extraer datos de páginas web dinámicas.
-Selenium tambien puede simular interacciones de usuario como clics, envíos de formularios y desplazamiento. 
-
-# Uso de Beautiful Soup
-
-En el mundo del análisis de datos, a menudo nos encontramos con la necesidad de obtener datos de la web para nuestros proyectos. Puede ser información de noticias, datos de productos, estadísticas deportivas o cualquier otro tipo de contenido en línea. Beautiful Soup nos brinda la capacidad de acceder a estos datos y convertirlos en un formato que podamos utilizar en nuestro análisis.
-
-## ESTRUCTURA DEL PROYECTO
-
- <img src="https://github.com/jackyto20/mi_primer_repo/blob/main/Captura1.PNG" width="500"/>
-     
-
-## CONCLUSIÓN
-Este proyecto tiene como objetivo optimizar la capacidad de DataStream para destacar los mejores contenidos en su plataforma mediante el análisis detallado de películas y cortometrajes. El uso de metodologías ágiles y tecnologías de scraping, combinado con un robusto análisis de datos, permitirá a DataStream tomar decisiones estratégicas fundamentadas, mejorando la experiencia para sus usuarios.
-
- ## CONTACTO
-
-Si tienes preguntas o sugerencias, no dudes en contactarnos  a través de linkedin o escribiendonos a traves de correo eletronico: 
-
-- Yael Parra 
-  https://www.linkedin.com/in/yael-parra/
-  yaelparrac@gmail.com
-
-- Paula Martinez Cantero
-  paula.mtnezcantero@gmail.com
-   
-- Jacqueline Yusty Espinosa 
-  https://es.linkedin.com/in/jacqueline-yusty-espinosa-3112681
-  jackeline_yusti@yahoo.com
-
+- [Adalab Cinema](https://dev.adalab.es/cinema/) - Datos de películas.
+- [IMDB](https://www.imdb.com/) - Base de datos de películas y actores.
+- [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar.
