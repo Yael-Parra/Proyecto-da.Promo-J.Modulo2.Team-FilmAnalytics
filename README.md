@@ -66,7 +66,8 @@ Este proyecto se desarrollará siguiendo la metodología **Scrum**, lo que asegu
 ## 📊 **Modelo Entidad-Relación (ER)**
 
 
-![image](https://github.com/user-attachments/assets/486f7bfa-202c-4423-85ba-a4dc841deb35)
+![er](https://github.com/user-attachments/assets/9828686f-53d8-4bbc-abe5-8887212aeb46)
+
 
 ---
 
