@@ -6,8 +6,8 @@
 
 **Desarrolladoras:**
 
+- [Yael Parra](https://www.linkedin.com/in/yael-parra/) 💼
 - Paula Martínez
-- Yael Parra
 - Jacqueline Yusty
 ---
 
@@ -76,3 +76,13 @@ Este proyecto se desarrollará siguiendo la metodología **Scrum**, lo que asegu
 - [Adalab Cinema] - Datos de películas.
 - [IMDB](https://www.imdb.com/) - Base de datos de películas y actores.
 - [Wikipedia - Premios Óscar](https://es.wikipedia.org/wiki/Premios_%C3%93scar) - Información sobre los Premios Óscar.
+
+---
+
+## 📱 **Contacto**
+Si deseas conectar o aprender más sobre este proyecto, no dudes en visitar mi perfil de **LinkedIn**: [Yael Parra](https://www.linkedin.com/in/yael-parra/) 💼
+
+---
+
+**¡Gracias por explorar este proyecto!**  
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos. 🙌
