@@ -8,7 +8,7 @@
 
 - [Yael Parra](https://www.linkedin.com/in/yael-parra/) 💼
 - Paula Martínez
-- Jacqueline Yusty
+- [Jacqueline Yusty Espinosa](https://www.linkedin.com/in/jacquelineyusti/)
 ---
 
 ## 🛠️ Proyecto: Mejora del Contenido en DataStream
